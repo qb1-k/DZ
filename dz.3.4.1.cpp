@@ -29,7 +29,7 @@ public:
         return y;
     }
 
-    std::string get_sity() const {
+    std::string get_city() const {
         std::string v = city;
         return v;
     }
@@ -82,8 +82,8 @@ int main() {
 
             list_off << a << std::endl;
             for (int i = a - 1; i > -1; i--) {
-                list_off << A[i].get_sity() << ", " << A[i].get_street() << ", " << A[i].get_num_home() << ", " << A[i].get_num_apartments() << "\n";
-                std::cout << A[i].get_sity() << ", " << A[i].get_street() << ", " << A[i].get_num_home() << ", " << A[i].get_num_apartments() << "\n";
+                list_off << A[i].get_city() << ", " << A[i].get_street() << ", " << A[i].get_num_home() << ", " << A[i].get_num_apartments() << "\n";
+                std::cout << A[i].get_city() << ", " << A[i].get_street() << ", " << A[i].get_num_home() << ", " << A[i].get_num_apartments() << "\n";
 
             }
         }
