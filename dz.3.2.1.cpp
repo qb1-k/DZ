@@ -83,7 +83,6 @@ int main()
 
         if (calc.set_num1(a) == 0 || calc.set_num2(b) == 0) {
             std::cout << "Invalid input!\n\n";
-            return 1;
         }
         else {
             std::cout << "num1 + num2 = " << calc.get_add() << std::endl;
